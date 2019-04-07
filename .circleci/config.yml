@@ -5,6 +5,10 @@ jobs:
       - image: microsoft/dotnet:2.2-sdk
     steps:
       - checkout
-      - run: find .
-      - run: dotnet restore
+      - run: find . -path ./.git -prune -o -print
       - run: dotnet build
+workflows:
+  version: 2
+  build_and_test:
+    jobs:
+      - build
