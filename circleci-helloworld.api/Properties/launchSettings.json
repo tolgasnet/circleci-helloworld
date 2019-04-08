@@ -4,12 +4,12 @@
     "windowsAuthentication": false, 
     "anonymousAuthentication": true, 
     "iisExpress": {
-      "applicationUrl": "http://localhost:47846",
-      "sslPort": 44323
+      "applicationUrl": "http://localhost:52611",
+      "sslPort": 44347
     }
   },
   "profiles": {
-    "circleci_helloworld": {
+    "circleci_helloworld.api": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/values",

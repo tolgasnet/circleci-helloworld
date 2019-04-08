@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
-    <RootNamespace>circleci_helloworld</RootNamespace>
+    <RootNamespace>circleci_helloworld.api</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

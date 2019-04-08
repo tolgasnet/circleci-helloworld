@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace circleci_helloworld
+namespace circleci_helloworld.api
 {
     public class Program
     {

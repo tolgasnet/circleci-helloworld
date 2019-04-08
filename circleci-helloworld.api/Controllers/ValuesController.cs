@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace circleci_helloworld.Controllers
+namespace circleci_helloworld.api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

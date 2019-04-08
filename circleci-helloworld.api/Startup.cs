@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace circleci_helloworld
+namespace circleci_helloworld.api
 {
     public class Startup
     {
